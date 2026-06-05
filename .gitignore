@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data — not redistributed; download from original sources (see README)
+data/
+*.csv
+!results/tables/*.csv
+
+# Model checkpoints — published on the Hugging Face Hub (see README)
+# Only ignore the top-level checkpoint output dir, NOT the src/models source code.
+/models/
+*.pt
+*.bin
+*.safetensors
+*.pkl
+
+# Experiment tracking
+wandb/

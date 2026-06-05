@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying models, please cite the thesis below."
+title: "Multi-Source Natural Language Processing for Airline Passenger Sentiment and Satisfaction Analysis"
+type: thesis
+authors:
+  - family-names: Gerem
+    given-names: Enes
+    affiliation: "Hacettepe University, Department of Computer Engineering"
+abstract: >-
+  An explainable, multi-source sentiment-classification framework integrating
+  Twitter, Skytrax, and AirlineQuality airline passenger feedback. Classical
+  machine-learning, deep-learning, and transformer-based models are compared
+  across single-, dual-, and triple-source configurations with cross-domain
+  evaluation and post-hoc explainability (SHAP / LIME).
+keywords:
+  - sentiment analysis
+  - natural language processing
+  - transformers
+  - cross-domain generalization
+  - explainable AI
+  - airline reviews
+license: MIT
+year: 2026
+institution:
+  name: "Hacettepe University, Graduate School of Science and Engineering"
